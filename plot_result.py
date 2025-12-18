@@ -186,7 +186,7 @@ p.js_on_event(Reset, reset_handler)
 # --- 4. OUTPUT ---
 controls = row(slider, toggle, sizing_mode="stretch_width")
 layout = column(controls, p, sizing_mode="scale_both")
-output_file("signal_dashboard.html", title="Signal Viewer")
+output_file("index.html", title="Signal Viewer")
 save(layout)
 
-print("Done! Open 'signal_dashboard.html' to view your presentation.")
+print("Done! Open 'index.html' to view your presentation.")
